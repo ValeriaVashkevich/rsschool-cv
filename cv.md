@@ -72,3 +72,5 @@ Now I want to develop in this area!
 
 * Russian - Native
 * English - Beginner
+
+[![RSS icon](https://rs.school/images/rs_school_js.svg)](https://rs.school/js/)
