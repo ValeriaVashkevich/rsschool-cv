@@ -5,11 +5,11 @@
 
 ### Contact information:
 
-**Location:** Minsk, Belarus
-**Phone:** +375(29) 330-51-18
-**E-mail:** Valeri.Vashkevich@yandex.by
-**Telegram:** @valeria_vashkevich
-**GitHub:** [ValeriaVashkevich](https://github.com/ValeriaVashkevich)
+**Location:** Minsk, Belarus  
+**Phone:** +375(29) 330-51-18  
+**E-mail:** Valeri.Vashkevich@yandex.by  
+**Telegram:** [@valeria_vashkevich](https://t.me/valeria_vashkevich)  
+**GitHub:** [ValeriaVashkevich](https://github.com/ValeriaVashkevich)  
 - - -
 
 ### About Myself:
