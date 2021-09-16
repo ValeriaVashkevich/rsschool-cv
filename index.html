@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV | Valeria Vashkevich</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <aside class="left-column">
+          <header class="header">
+            <h1>Valeria Vashkevich</h1>
+            <figure>
+              <img
+                src="https://avatars.githubusercontent.com/u/83860731?v=4"
+                alt="Valeria Vashkevich"
+              />
+              <figcaption>Junior Frontend Developer</figcaption>
+            </figure>
+          </header>
+          <main class="main">
+            <section class="contacts">
+              <h2>Contact information:</h2>
+              <ul>
+                <li>Location: Minsk, Belarus</li>
+                <li>Phone: +375(29) 330-51-18</li>
+                <li>E-mail: Valeri.Vashkevich@yandex.by</li>
+                <li>Telegram: @valeria_vashkevich</li>
+                <li>GitHub: ValeriaVashkevich</li>
+              </ul>
+            </section>
+            <section class="skills">
+              <h2>Skills:</h2>
+              <ul>
+                <li>HTML, CSS</li>
+                <li>JavaScript (Basic)</li>
+                <li>Git, GitHub</li>
+                <li>VSCode</li>
+              </ul>
+            </section>
+          </main>
+        </aside>
+        <div class="rigth-column">
+          <section class="about-myself">
+            <h2>About Myself:</h2>
+            <p>I graduated from the Belarusian State University of Culture and Arts. I am an actress, teacher of theatrical disciplines. I stopped enjoying my profession and started looking for something new. About six months ago I discovered the profession of a Front-End Development. Now I want to develop in this area!</p>
+            <details open>
+                <summary>My strengths:</summary>
+                <ul>
+                    <li>Responsibility</li>
+                    <li>Diligence</li>
+                    <li>Сreative</li>
+                    <li>Teamwork</li>
+                </ul>
+            </details>
+          </section>
+          <section class="education">
+              <h2>Education:</h2>
+              <h3>Higher education:</h3>
+              <div class="high-education_description">
+                <div class="time">
+                    <span>2016 - 2020</span>
+                </div>
+                <div class="university-name">
+                    <span>Belarusian State University of Culture and Arts</span>
+                    <span>Theatrical creativity</span>
+                </div>
+              </div>
+              <h3>Courses:</h3>
+              <div class="Courses:">
+                  <div class="course-object">
+                      <span>HTML/CSS</span>
+                      <span>HTML/CSS</span>
+                      <span>JavaScript</span>
+                  </div>
+                  <div class="course-name">
+                      <span>HTML Academy</span>
+                      <span>Hexlet</span>
+                      <span>Hexlet</span>
+                  </div>
+              </div>
+          </section>
+          <section class="code-example">
+            <h2>Code Example:</h2>
+            <p>Highest and Lowest KATA from CODEWARS: In this little assignment you are given a string of space separated numbers, and have to return the highest and lowest number.</p>
+            <pre>
+                <code>
+                    function highAndLow(numbers) {
+                        const newArr = numbers.split(" ")
+                        let max = parseInt(newArr[0])
+                        let min = parseInt(newArr[0])
+                        
+                        for (let i = 0; i < newArr.length; i += 1) {
+                          let num = parseInt(newArr[i])
+                          
+                          if (max < num) {
+                            max = num
+                          }
+                          if (min > num) {
+                            min = num
+                          }
+                        }
+                         return `${max} ${min}`
+                        }
+                </code>
+            </pre>
+          </section>
+          <section class="languages">
+            <h2>Languages:</h2>
+            <ul>
+                <li>Russian</li>
+                <ul><li>Native</li></ul>
+                <li>English</li>
+                <ul><li>Beginner</li></ul>
+            </ul>
+          </section>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <p class="github-link">GitHub: ValeriaVashkevich</p>
+                <p class="creation-year">2021</p>
+                <p class="logo"><img src="https://rs.school/images/rs_school_js.svg" alt="logo"></p>
+            </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
