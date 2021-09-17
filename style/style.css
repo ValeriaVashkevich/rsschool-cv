@@ -173,7 +173,7 @@ summary {
   display: flex;
 }
 
-.course-object {
+.course-subject {
   display: flex;
   flex-flow: column;
   width: 145px;
@@ -181,7 +181,7 @@ summary {
   border: 1px dashed rgba(132, 82, 42, 1);
 }
 
-.course-object a {
+.course-subject a {
   line-height: 24px;
   color: rgba(44, 42, 39, 1);
   text-decoration: none;
