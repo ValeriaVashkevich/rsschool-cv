@@ -50,7 +50,7 @@ figure {
   text-align: center;
 }
 
-.foto-img img{
+.foto-img img {
   border-radius: 12%;
   max-height: 350px;
   overflow: hidden;
@@ -61,7 +61,7 @@ figcaption {
   text-align: center;
 }
 
-main {
+.main-info {
   margin: 40px 0 0 0;
 }
 
@@ -86,7 +86,7 @@ h2 {
   font-size: 18px;
   align-items: center;
   font-weight: bold;
-  color: #2C2A27;
+  color: #2c2a27;
 }
 
 .contact-logo img {
@@ -94,7 +94,7 @@ h2 {
 }
 
 .contact-logo a {
-  color: #2C2A27;
+  color: #2c2a27;
   text-decoration: none;
 }
 
