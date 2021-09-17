@@ -41,24 +41,28 @@ h1 {
 }
 
 figure {
-  width: 250px;
-  height: 290px;
-  margin: 40px;
-  display: flex;
-  flex-flow: column;
-}
-
-figcaption {
-  margin: 20px 0 0 0;
-  text-align: center;
+  width: 360px;
+  height: 380px;
+  margin: 20px 20px 20px 0;
 }
 
 .foto-img {
-  border-radius: 50%;
-  max-width: 250px;
-  max-height: 290px;
-  background-size: cover;
+  text-align: center;
+}
+
+.foto-img img{
+  border-radius: 12%;
+  max-height: 350px;
   overflow: hidden;
+}
+
+figcaption {
+  margin: 14px 0 0 0;
+  text-align: center;
+}
+
+main {
+  margin: 40px 0 0 0;
 }
 
 h2 {
@@ -130,6 +134,7 @@ summary {
   font-weight: bold;
   margin: 25px 0 0 0;
   background-color: rgba(132, 82, 42, 0.3);
+  border-radius: 5%;
 }
 
 .strengths-list li {
@@ -196,6 +201,7 @@ summary {
 
 pre {
   background-color: rgba(132, 82, 42, 0.3);
+  border-radius: 5%;
 }
 
 .languages-list li {
