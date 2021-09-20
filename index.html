@@ -6,11 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV | Valeria Vashkevich</title>
     <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/media.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
   </head>
   <body>
     <div class="wrapper">
       <div class="container">
+        <div class="burger-wrapper">
+          <ul class="burger-list">
+            <li><a class="burger-link" href="#contacts">Contact</a></li>
+            <li><a class="burger-link" href="#skills">Skills</a></li>
+            <li><a class="burger-link" href="#about-myself">About Myself</a></li>
+            <li><a class="burger-link" href="#education">Education</a></li>
+            <li><a class="burger-link" href="#code-example">Code</a></li>
+            <li><a class="burger-link" href="#languages">Languages</a></li>
+          </ul>
+        </div>
+        <nav class="menu">
+          <div class="menu_burger">
+            <span></span>
+        </div>
+          <ul class="menu-list">
+            <li><a href="#contacts">Contact</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about-myself">About Myself</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#code-example">Code</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+        </nav>
         <div class="summary-container">
           <aside class="left-column">
             <header class="header">
@@ -27,7 +51,7 @@
               </figure>
             </header>
             <div class="main-info">
-              <section class="contacts">
+              <section id="contacts" class="contacts">
                 <h2>Contact information:</h2>
                 <ul class="contact-list">
                   <li class="contact-logo">
@@ -62,7 +86,7 @@
                   </li>
                 </ul>
               </section>
-              <section class="skills">
+              <section id="skills" class="skills">
                 <h2>Skills:</h2>
                 <ul class="skills-list">
                   <li>HTML, CSS</li>
@@ -74,7 +98,7 @@
             </div>
           </aside>
           <div class="rigth-column">
-            <section class="about-myself">
+            <section id="about-myself" class="about-myself">
               <h2>About Myself:</h2>
               <p>
                 I graduated from the Belarusian State University of Culture and
@@ -93,7 +117,7 @@
                 </ul>
               </details>
             </section>
-            <section class="education">
+            <section id="education" class="education">
               <h2>Education:</h2>
               <h3>Higher education:</h3>
               <div class="high-education_description">
@@ -126,7 +150,7 @@
                 </div>
               </div>
             </section>
-            <section class="code-example">
+            <section id="code-example" class="code-example">
               <h2>Code Example:</h2>
               <p class="code-description">
                 <b>Highest and Lowest KATA from CODEWARS:</b>
@@ -136,6 +160,23 @@
                   number.</i
                 >
               </p>
+              <div id="code-example" class="code-container">
+                <code>function highAndLow(numbers) {</code>
+                <code>const newArr = numbers.split(" ")</code>
+                <code>let max = parseInt(newArr[0])</code>
+                <code>let min = parseInt(newArr[0])</code>
+                <code>for (let i = 0; i &lt; newArr.length; i += 1) {</code>
+                <code>let num = parseInt(newArr[i])</code>
+                <code>if (max &lt; num) {</code>
+                <code>max = num</code>
+                <code>}</code>
+                <code>if (min > num) {</code>
+                <code>min = num</code>
+                <code>}</code>
+                <code>}</code>
+                <code>return ${max} ${min}</code>
+                <code>}</code>
+              </div>
               <pre>
                 <code>
                     function highAndLow(numbers) {
@@ -158,7 +199,7 @@
                     </code>
                   </pre>
             </section>
-            <section class="languages">
+            <section id="languages" class="languages">
               <h2>Languages:</h2>
               <ul class="languages-list">
                 <li>
@@ -198,5 +239,6 @@
         </footer>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
