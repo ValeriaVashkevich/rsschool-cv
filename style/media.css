@@ -1,0 +1,129 @@
+@media (max-width: 991px) {
+  .container {
+    width: 100%;
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  .menu {
+    padding: 0 0 0 10px;
+  }
+
+  .menu_burger {
+    margin: auto 0;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+    z-index: 3;
+  }
+
+  .burger-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .burger-list li {
+    list-style-type: none;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+  }
+
+  .burger-list a {
+    color: #f3f2ed;
+  }
+
+  .menu_burger span {
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+    transition: all 0.3s ease 0s;
+  }
+  .menu_burger:before,
+  .menu_burger:after {
+    content: "";
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    transition: all 0.3s ease 0s;
+  }
+  .menu_burger:before {
+    top: 0;
+  }
+  .menu_burger:after {
+    bottom: 0;
+  }
+
+  .menu_burger.active:before {
+    transform: rotate(45deg);
+    top: 9px;
+  }
+  .menu_burger.active:after {
+    transform: rotate(-45deg);
+    bottom: 9px;
+  }
+  .menu_burger.active span {
+    transform: scale(0);
+  }
+
+  .burger-wrapper.active {
+    top: 0;
+  }
+
+  .summary-container {
+    flex-direction: column;
+  }
+
+  .left-column {
+    width: 100%;
+    padding: 0;
+    border-right: none;
+  }
+
+  figure {
+    width: 100%;
+  }
+
+  .rigth-column {
+    width: 100%;
+    padding: 0;
+  }
+
+  .contact-list {
+    padding: 0;
+  }
+
+  .contact-logo a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .contacts,
+  .skills,
+  .about-myself,
+  .education,
+  .code-example,
+  .languages {
+    padding: 30px;
+    height: auto;
+  }
+
+  pre {
+    display: none;
+  }
+
+  .code-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+}
